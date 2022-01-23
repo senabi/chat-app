@@ -1,5 +1,5 @@
 import "../styles/globals.css";
-import "../firebase/config";
+// import "../firebase/config";
 // import "react-firebaseui";
 
 function MyApp({ Component, pageProps }) {
