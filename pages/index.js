@@ -31,7 +31,7 @@ export default function Home() {
         <>
           <Button onClick={signOut}> Sign Out</Button>
           <h1> Welcome to chat</h1>
-          <Channel onClick={user} db={db} />
+          <Channel user={user} db={db} />
         </>
       ) : (
         <Button
